@@ -12,9 +12,18 @@ require.config({
         'etpl': '../dep/etpl/3.0.0/src/etpl',
         'jquery': '../dep/jquery-2.1.3.min',
         'jqueryui': '../dep/jquery-ui-1.10.4.custom.min',
-        'underscroe':'../dep/underscore/1.8.5/src/underscore'
+        'underscroe':'../dep/underscore/1.8.5/src/underscore',
+        'bootstrap':'../dep/bootstrap/bootstrap.min',
+        'text':'../dep/text'
     },
-    'shim': { 'jqueryui': { 'deps': ['jquery'] } },
+    'shim': { 
+        'jqueryui': { 
+            'deps': ['jquery']
+        },
+        'bootstrap': { 
+            'deps': ['jquery']
+        }
+    },
     'packages': [
         {
             'name': 'etpl',

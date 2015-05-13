@@ -43,6 +43,12 @@ exports.getLocations = function () {
                 stylus()
             ]
         },
+        {
+            location: /^[^\?]+?\.tpl\.js($|\?)/,
+            handler: [
+                html2js()
+            ]
+        },
         { 
             location: /^.*$/, 
             handler: [
