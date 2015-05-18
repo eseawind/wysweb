@@ -13,7 +13,7 @@ require.config({
         'jquery': '../dep/jquery-2.1.3.min',
         'jqueryui': '../dep/jquery-ui-1.10.4.custom.min',
         'underscroe':'../dep/underscore/1.8.5/src/underscore',
-        'bootstrap':'../dep/bootstrap/bootstrap.min',
+        'bootstrap':'../dep/bootstrap/js/bootstrap.min',
         'text':'../dep/text'
     },
     'shim': { 
